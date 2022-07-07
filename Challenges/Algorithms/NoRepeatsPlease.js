@@ -1,5 +1,4 @@
-<script>
-  let getAllPermutations = str => {
+let getAllPermutations = str => {
     if (str.length < 2) return str;
 
     let permutations = [];
@@ -37,4 +36,3 @@
   };
 
   console.log(permAlone("aab"));
-</script>
