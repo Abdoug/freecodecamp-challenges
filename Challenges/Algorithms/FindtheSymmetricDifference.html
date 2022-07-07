@@ -22,10 +22,10 @@
     }
 
     const symetricByTwo = (firstArray, secondArray) => {
-    let firstArrayElements = firstArray.filter((e, i) => !secondArray.includes(e))
-    let secondArrayElements = secondArray.filter((e, i) => !firstArray.includes(e))
+        let firstArrayElements = firstArray.filter((e, i) => !secondArray.includes(e))
+        let secondArrayElements = secondArray.filter((e, i) => !firstArray.includes(e))
 
-    return [...firstArrayElements, ...secondArrayElements];
+        return [...firstArrayElements, ...secondArrayElements];
     }
 
     // Testing the code
