@@ -15,9 +15,9 @@ function merge(firstArray, secondArray) {
 
     while (firstArray.length && secondArray.length) {
         if (firstArray[0] <= secondArray[0]) {
-        sortedArray.push(firstArray.shift())
+            sortedArray.push(firstArray.shift())
         } else {
-        sortedArray.push(secondArray.shift())
+            sortedArray.push(secondArray.shift())
         }
     }
 
