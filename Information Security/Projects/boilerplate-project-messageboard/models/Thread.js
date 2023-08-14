@@ -10,7 +10,7 @@ const ThreadSchema = new Schema({
     created_on: { type: Date, default: date },
     bumped_on: { type: Date, default: date },
     reported: { type: Boolean, default: false },
-    replies: { type: [ReplySchema] }
+    replies: { type: [ReplySchema] },
 })
 
 const Thread = mongoose.model("Thread", ThreadSchema);
